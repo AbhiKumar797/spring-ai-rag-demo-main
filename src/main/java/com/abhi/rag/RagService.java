@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 public class RagService {
 
     public String processQuery(String query) {
-        return "RAG processing will be implemented here.";
+        // TODO: Implement RAG processing logic here
+        return "RAG processing will be implemented here. Received query: " + query + "." ;
+
     }
 }
